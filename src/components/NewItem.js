@@ -14,7 +14,8 @@ class NewItem extends React.Component {
       name: this.inputName.value,
     }
     this.props.addItem(item);
-    document.getElementById("form-new-item").reset();
+    this.inputQuantity.value = "";
+    this.inputName.value = "";
   }
   render () {
     return(
