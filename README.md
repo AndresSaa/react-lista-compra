@@ -14,6 +14,10 @@ La lista te permite añadir nuevos artículos y su cantidad. Además contabiliza
 
 En este proyecto tu puedes lanzar los siquientes comandos:
 
+### `yarn install`
+
+Install dependencies
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
