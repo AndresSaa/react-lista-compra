@@ -1,5 +1,5 @@
 /*
-List Item
+New Item
 */
 import React  from 'react'
 
@@ -14,11 +14,11 @@ class NewItem extends React.Component {
       name: this.inputName.value,
     }
     this.props.addItem(item);
+    document.getElementById("form-new-item").reset();
   }
   render () {
     return(
-      <div className="NewItem">
-        <span></span>
+      <form id="form-new-item" className="NewItem">
         <input className="NewItem-quantity"
           name="quantity"
           placeholder="num"
@@ -32,7 +32,7 @@ class NewItem extends React.Component {
         <button className="NewItem-AddBtn"
           type="button"
           onClick={ this.addItem }>Añadir</button>
-      </div>
+      </form>
       );
   }
 }
