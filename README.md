@@ -1,5 +1,7 @@
 # Lista de la Compra en React
 
+![Lista de la compra en React](https://i.imgur.com/8WL1xkp.png)
+
 ---
 
 ## Introduccion
