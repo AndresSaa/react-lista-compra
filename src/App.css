@@ -27,7 +27,7 @@
 .List {
   text-align: left;
   list-style-type: none;
-  padding-inline-start: 56px;
+  padding-inline-start: 0;
 }
 
 .ListItem {
@@ -36,11 +36,13 @@
 
 .ListItem-name, .ListItem-quantity {
   display: inline-block;
+  text-align: right;
 }
 
 .ListItem-quantity {
   color: aquamarine;
-  width: 32px;
+  width: 80px;
+  margin-right: 20px;
 }
 
 .NewItem input {
@@ -51,7 +53,7 @@
 }
 
 .NewItem-quantity {
-  width: 40px;
+  width: 50px;
 }
 
 .NewItem-AddBtn {

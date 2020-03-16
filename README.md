@@ -10,13 +10,18 @@ El proyecto consiste en una lista de la compra. Está construido con React, usan
 
 La lista te permite añadir nuevos artículos y su cantidad. Además contabiliza el total de artículos.
 
+## Demo
+
+Puedes acceder a la demo:
+[React Lista de la Compra](https://react-lista-compra.now.sh/)
+
 ## Commands
 
-En este proyecto tu puedes lanzar los siquientes comandos:
+En este proyecto se dispone de los siguientes comandos:
 
 ### `yarn install`
 
-Install dependencies
+Install dependencies.
 
 ### `yarn start`
 
